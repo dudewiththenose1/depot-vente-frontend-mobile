@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B4B2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift */; };
+		B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B4D2D79D72E00E55AA9 /* ContentView.swift */; };
+		B73F9B502D79D73200E55AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73F9B4F2D79D73200E55AA9 /* Assets.xcassets */; };
+		B73F9B532D79D73200E55AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73F9B522D79D73200E55AA9 /* Preview Assets.xcassets */; };
+		B73F9B5D2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B5C2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift */; };
+		B73F9B672D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */; };
+		B73F9B692D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B73F9B592D79D73200E55AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73F9B402D79D72E00E55AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B73F9B472D79D72E00E55AA9;
+			remoteInfo = "depot-vente-frontend-mobile";
+		};
+		B73F9B632D79D73200E55AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73F9B402D79D72E00E55AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B73F9B472D79D72E00E55AA9;
+			remoteInfo = "depot-vente-frontend-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B73F9B482D79D72E00E55AA9 /* depot-vente-frontend-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "depot-vente-frontend-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73F9B4B2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileApp.swift; sourceTree = "<group>"; };
+		B73F9B4D2D79D72E00E55AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B73F9B4F2D79D73200E55AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B73F9B522D79D73200E55AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B73F9B582D79D73200E55AA9 /* depot-vente-frontend-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "depot-vente-frontend-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73F9B5C2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileTests.swift; sourceTree = "<group>"; };
+		B73F9B622D79D73200E55AA9 /* depot-vente-frontend-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "depot-vente-frontend-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITests.swift; sourceTree = "<group>"; };
+		B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B73F9B452D79D72E00E55AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F9B552D79D73200E55AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F9B5F2D79D73200E55AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B73F9B3F2D79D72E00E55AA9 = {
+			isa = PBXGroup;
+			children = (
+				B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */,
+				B73F9B5B2D79D73200E55AA9 /* depot-vente-frontend-mobileTests */,
+				B73F9B652D79D73200E55AA9 /* depot-vente-frontend-mobileUITests */,
+				B73F9B492D79D72E00E55AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B73F9B492D79D72E00E55AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B482D79D72E00E55AA9 /* depot-vente-frontend-mobile.app */,
+				B73F9B582D79D73200E55AA9 /* depot-vente-frontend-mobileTests.xctest */,
+				B73F9B622D79D73200E55AA9 /* depot-vente-frontend-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B4B2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift */,
+				B73F9B4D2D79D72E00E55AA9 /* ContentView.swift */,
+				B73F9B4F2D79D73200E55AA9 /* Assets.xcassets */,
+				B73F9B512D79D73200E55AA9 /* Preview Content */,
+			);
+			path = "depot-vente-frontend-mobile";
+			sourceTree = "<group>";
+		};
+		B73F9B512D79D73200E55AA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B522D79D73200E55AA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B73F9B5B2D79D73200E55AA9 /* depot-vente-frontend-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B5C2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift */,
+			);
+			path = "depot-vente-frontend-mobileTests";
+			sourceTree = "<group>";
+		};
+		B73F9B652D79D73200E55AA9 /* depot-vente-frontend-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */,
+				B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */,
+			);
+			path = "depot-vente-frontend-mobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B73F9B472D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B73F9B6C2D79D73200E55AA9 /* Build configuration list for PBXNativeTarget "depot-vente-frontend-mobile" */;
+			buildPhases = (
+				B73F9B442D79D72E00E55AA9 /* Sources */,
+				B73F9B452D79D72E00E55AA9 /* Frameworks */,
+				B73F9B462D79D72E00E55AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "depot-vente-frontend-mobile";
+			productName = "depot-vente-frontend-mobile";
+			productReference = B73F9B482D79D72E00E55AA9 /* depot-vente-frontend-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B73F9B572D79D73200E55AA9 /* depot-vente-frontend-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B73F9B6F2D79D73200E55AA9 /* Build configuration list for PBXNativeTarget "depot-vente-frontend-mobileTests" */;
+			buildPhases = (
+				B73F9B542D79D73200E55AA9 /* Sources */,
+				B73F9B552D79D73200E55AA9 /* Frameworks */,
+				B73F9B562D79D73200E55AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B73F9B5A2D79D73200E55AA9 /* PBXTargetDependency */,
+			);
+			name = "depot-vente-frontend-mobileTests";
+			productName = "depot-vente-frontend-mobileTests";
+			productReference = B73F9B582D79D73200E55AA9 /* depot-vente-frontend-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B73F9B612D79D73200E55AA9 /* depot-vente-frontend-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B73F9B722D79D73200E55AA9 /* Build configuration list for PBXNativeTarget "depot-vente-frontend-mobileUITests" */;
+			buildPhases = (
+				B73F9B5E2D79D73200E55AA9 /* Sources */,
+				B73F9B5F2D79D73200E55AA9 /* Frameworks */,
+				B73F9B602D79D73200E55AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B73F9B642D79D73200E55AA9 /* PBXTargetDependency */,
+			);
+			name = "depot-vente-frontend-mobileUITests";
+			productName = "depot-vente-frontend-mobileUITests";
+			productReference = B73F9B622D79D73200E55AA9 /* depot-vente-frontend-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B73F9B402D79D72E00E55AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B73F9B472D79D72E00E55AA9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B73F9B572D79D73200E55AA9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B73F9B472D79D72E00E55AA9;
+					};
+					B73F9B612D79D73200E55AA9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B73F9B472D79D72E00E55AA9;
+					};
+				};
+			};
+			buildConfigurationList = B73F9B432D79D72E00E55AA9 /* Build configuration list for PBXProject "depot-vente-frontend-mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B73F9B3F2D79D72E00E55AA9;
+			productRefGroup = B73F9B492D79D72E00E55AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B73F9B472D79D72E00E55AA9 /* depot-vente-frontend-mobile */,
+				B73F9B572D79D73200E55AA9 /* depot-vente-frontend-mobileTests */,
+				B73F9B612D79D73200E55AA9 /* depot-vente-frontend-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B73F9B462D79D72E00E55AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F9B532D79D73200E55AA9 /* Preview Assets.xcassets in Resources */,
+				B73F9B502D79D73200E55AA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F9B562D79D73200E55AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F9B602D79D73200E55AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B73F9B442D79D72E00E55AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
+				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F9B542D79D73200E55AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F9B5D2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73F9B5E2D79D73200E55AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73F9B692D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift in Sources */,
+				B73F9B672D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B73F9B5A2D79D73200E55AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B73F9B472D79D72E00E55AA9 /* depot-vente-frontend-mobile */;
+			targetProxy = B73F9B592D79D73200E55AA9 /* PBXContainerItemProxy */;
+		};
+		B73F9B642D79D73200E55AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B73F9B472D79D72E00E55AA9 /* depot-vente-frontend-mobile */;
+			targetProxy = B73F9B632D79D73200E55AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B73F9B6A2D79D73200E55AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B73F9B6B2D79D73200E55AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B73F9B6D2D79D73200E55AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"depot-vente-frontend-mobile/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "polytech.depot-vente-frontend-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B73F9B6E2D79D73200E55AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"depot-vente-frontend-mobile/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "polytech.depot-vente-frontend-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B73F9B702D79D73200E55AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "polytech.depot-vente-frontend-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/depot-vente-frontend-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/depot-vente-frontend-mobile";
+			};
+			name = Debug;
+		};
+		B73F9B712D79D73200E55AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "polytech.depot-vente-frontend-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/depot-vente-frontend-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/depot-vente-frontend-mobile";
+			};
+			name = Release;
+		};
+		B73F9B732D79D73200E55AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "polytech.depot-vente-frontend-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "depot-vente-frontend-mobile";
+			};
+			name = Debug;
+		};
+		B73F9B742D79D73200E55AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "polytech.depot-vente-frontend-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "depot-vente-frontend-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B73F9B432D79D72E00E55AA9 /* Build configuration list for PBXProject "depot-vente-frontend-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F9B6A2D79D73200E55AA9 /* Debug */,
+				B73F9B6B2D79D73200E55AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B73F9B6C2D79D73200E55AA9 /* Build configuration list for PBXNativeTarget "depot-vente-frontend-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F9B6D2D79D73200E55AA9 /* Debug */,
+				B73F9B6E2D79D73200E55AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B73F9B6F2D79D73200E55AA9 /* Build configuration list for PBXNativeTarget "depot-vente-frontend-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F9B702D79D73200E55AA9 /* Debug */,
+				B73F9B712D79D73200E55AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B73F9B722D79D73200E55AA9 /* Build configuration list for PBXNativeTarget "depot-vente-frontend-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73F9B732D79D73200E55AA9 /* Debug */,
+				B73F9B742D79D73200E55AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B73F9B402D79D72E00E55AA9 /* Project object */;
+}
