@@ -12,7 +12,6 @@ struct depot_vente_frontend_mobileApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-            
         }
     }
 }
