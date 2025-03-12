@@ -94,6 +94,10 @@
 		B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				B73F9B782D8183C000E55AA9 /* Views */,
+				B73F9B772D8183AF00E55AA9 /* ViewModels */,
+				B73F9B762D8183A200E55AA9 /* Models */,
+				B73F9B752D81839800E55AA9 /* Services */,
 				B73F9B4B2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift */,
 				B73F9B4D2D79D72E00E55AA9 /* ContentView.swift */,
 				B73F9B4F2D79D73200E55AA9 /* Assets.xcassets */,
@@ -125,6 +129,98 @@
 				B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */,
 			);
 			path = "depot-vente-frontend-mobileUITests";
+			sourceTree = "<group>";
+		};
+		B73F9B752D81839800E55AA9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B802D81843C00E55AA9 /* Gestion */,
+				B73F9B7F2D81843200E55AA9 /* Admin */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B73F9B762D8183A200E55AA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B7E2D81841C00E55AA9 /* Admin */,
+				B73F9B7D2D81841300E55AA9 /* Gestion */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B73F9B772D8183AF00E55AA9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B7C2D81840800E55AA9 /* Admin */,
+				B73F9B7B2D8183FE00E55AA9 /* Gestion */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B73F9B782D8183C000E55AA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9B7A2D8183F100E55AA9 /* Gestion */,
+				B73F9B792D8183E200E55AA9 /* Admin */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B73F9B792D8183E200E55AA9 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		B73F9B7A2D8183F100E55AA9 /* Gestion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gestion;
+			sourceTree = "<group>";
+		};
+		B73F9B7B2D8183FE00E55AA9 /* Gestion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gestion;
+			sourceTree = "<group>";
+		};
+		B73F9B7C2D81840800E55AA9 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		B73F9B7D2D81841300E55AA9 /* Gestion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gestion;
+			sourceTree = "<group>";
+		};
+		B73F9B7E2D81841C00E55AA9 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		B73F9B7F2D81843200E55AA9 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		B73F9B802D81843C00E55AA9 /* Gestion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gestion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
