@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var presentSideMenu = false
+    @State var selectedSideMenuTab = 0
     var body: some View {
-        NavigationStack {
-            VStack {
-                Text("Accueil")
-                    .font(.largeTitle)
-                    .padding()
-
-                NavigationLink("Voir la Trésorerie", destination: BalanceView())
-                    .padding()
-                    .buttonStyle(.borderedProminent)
-            }
+        ZStack{
+        TabView(selection: $selectedSideMenuTab) {
+            HomepageView(presentSideMenu: $presentSideMenu)
+                .tag(0)
+            GestionView(presentSideMenu: $presentSideMenu)
+                .tag(1)
+            AdminView(presentSideMenu: $presentSideMenu)
+                .tag(2)
+        }
+        
+        SideMenu(isShowing: $presentSideMenu, content: AnyView(SideMenuView(selectedSideMenuTab: $selectedSideMenuTab, presentSideMenu: $presentSideMenu)))
         }
     }
 }
