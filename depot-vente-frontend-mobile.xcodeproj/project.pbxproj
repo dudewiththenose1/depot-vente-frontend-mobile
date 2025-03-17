@@ -14,6 +14,9 @@
 		B73F9B5D2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B5C2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift */; };
 		B73F9B672D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */; };
 		B73F9B692D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */; };
+		B74BDE7F2D88614100D4E1F1 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE7E2D88614100D4E1F1 /* CatalogView.swift */; };
+		B74BDE832D88655300D4E1F1 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE822D88655300D4E1F1 /* CatalogViewModel.swift */; };
+		B74BDE852D8867C000D4E1F1 /* RangedSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE842D8867C000D4E1F1 /* RangedSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B73F9B622D79D73200E55AA9 /* depot-vente-frontend-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "depot-vente-frontend-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITests.swift; sourceTree = "<group>"; };
 		B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B74BDE7E2D88614100D4E1F1 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		B74BDE822D88655300D4E1F1 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		B74BDE842D8867C000D4E1F1 /* RangedSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangedSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,7 @@
 		B73F9B772D8183AF00E55AA9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B74BDE802D88653500D4E1F1 /* Shared */,
 				B73F9B7C2D81840800E55AA9 /* Admin */,
 				B73F9B7B2D8183FE00E55AA9 /* Gestion */,
 			);
@@ -161,6 +168,7 @@
 		B73F9B782D8183C000E55AA9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B74BDE7C2D8860F900D4E1F1 /* Shared */,
 				B73F9B7A2D8183F100E55AA9 /* Gestion */,
 				B73F9B792D8183E200E55AA9 /* Admin */,
 			);
@@ -221,6 +229,39 @@
 			children = (
 			);
 			path = Gestion;
+			sourceTree = "<group>";
+		};
+		B74BDE7C2D8860F900D4E1F1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B74BDE7D2D88610400D4E1F1 /* Catalog */,
+				B74BDE842D8867C000D4E1F1 /* RangedSliderView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B74BDE7D2D88610400D4E1F1 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				B74BDE7E2D88614100D4E1F1 /* CatalogView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		B74BDE802D88653500D4E1F1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B74BDE812D88653F00D4E1F1 /* Catalog */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B74BDE812D88653F00D4E1F1 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				B74BDE822D88655300D4E1F1 /* CatalogViewModel.swift */,
+			);
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,8 +394,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74BDE832D88655300D4E1F1 /* CatalogViewModel.swift in Sources */,
 				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
+				B74BDE7F2D88614100D4E1F1 /* CatalogView.swift in Sources */,
 				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
+				B74BDE852D8867C000D4E1F1 /* RangedSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
