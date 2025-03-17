@@ -1,27 +1,26 @@
 import Combine
 import Foundation
 
-class BalanceViewModel: ObservableObject {
+class SellersViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var errorMessage: String? = nil
     
-    @Published var treasury: Int = 0
-    @Published var totalDue: Int = 0
-    @Published var totalDepositFees: Int = 0
-    @Published var totalCommissions: Int = 0
+    @Published var email : String = ""
+    @Published var clientDetails : ClientDetails
     
-    private let balanceService: BalanceServiceProtocol
+    private let sellersService: SellersService
     private var cancellables = Set<AnyCancellable>()
     
-    init(balanceService: BalanceServiceProtocol = BalanceService()) {
-        self.balanceService = balanceService
+    init(sellersService: SellersService = SellersService()) {
+        self.sellersService = sellersService
     }
     
+    //Fetch all the treasury information needed
     func fetchTreasury() {
         isLoading = true
         errorMessage = nil
         
-        balanceService.fetchTreasury { [weak self] result in
+        sellersService.fetchTreasury { [weak self] result in
             DispatchQueue.main.async {
                 self?.isLoading = false
                 switch result {
