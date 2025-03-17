@@ -33,6 +33,10 @@
 		B73F9BBA2D8824CE00E55AA9 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BB92D8824CE00E55AA9 /* SideMenu.swift */; };
 		B73F9BBD2D88255500E55AA9 /* SideMenuRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BBC2D88255500E55AA9 /* SideMenuRowType.swift */; };
 		B73F9BBF2D88263400E55AA9 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BBE2D88263400E55AA9 /* SideMenuView.swift */; };
+		B74BDE6F2D8840D900D4E1F1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */; };
+		B74BDE732D88415700D4E1F1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */; };
+		B74BDE762D88426C00D4E1F1 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE752D88426C00D4E1F1 /* LoginRequest.swift */; };
+		B74BDE782D8842A900D4E1F1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE772D8842A900D4E1F1 /* LoginResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,10 @@
 		B73F9BB92D8824CE00E55AA9 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		B73F9BBC2D88255500E55AA9 /* SideMenuRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowType.swift; sourceTree = "<group>"; };
 		B73F9BBE2D88263400E55AA9 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B74BDE752D88426C00D4E1F1 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		B74BDE772D8842A900D4E1F1 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +195,8 @@
 				B73F9B9D2D819EA500E55AA9 /* SessionModel.swift */,
 				B73F9B9F2D819FCF00E55AA9 /* ClientDetailsModel.swift */,
 				B73F9BA12D81A04400E55AA9 /* RealGameModel.swift */,
+				B74BDE752D88426C00D4E1F1 /* LoginRequest.swift */,
+				B74BDE772D8842A900D4E1F1 /* LoginResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +330,8 @@
 		B73F9BA62D881B6400E55AA9 /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
+				B74BDE712D88414100D4E1F1 /* Login */,
+				B74BDE702D88413100D4E1F1 /* Shared */,
 				B73F9BAB2D881BF700E55AA9 /* HomepageViewModel.swift */,
 			);
 			path = Homepage;
@@ -336,6 +348,7 @@
 		B73F9BB02D881C5800E55AA9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B74BDE6D2D8840C900D4E1F1 /* Login */,
 				B73F9BB82D8824B100E55AA9 /* Sidebar */,
 				B73F9BB12D881C6A00E55AA9 /* Catalog */,
 				B73F9BA52D881B5100E55AA9 /* Homepage */,
@@ -366,6 +379,29 @@
 				B73F9BBC2D88255500E55AA9 /* SideMenuRowType.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		B74BDE6D2D8840C900D4E1F1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B74BDE702D88413100D4E1F1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B74BDE712D88414100D4E1F1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74BDE732D88415700D4E1F1 /* LoginViewModel.swift in Sources */,
 				B73F9BBD2D88255500E55AA9 /* SideMenuRowType.swift in Sources */,
 				B73F9B852D81874500E55AA9 /* BalanceView.swift in Sources */,
 				B73F9B982D819C4400E55AA9 /* SellersService.swift in Sources */,
@@ -506,11 +543,14 @@
 				B73F9BBA2D8824CE00E55AA9 /* SideMenu.swift in Sources */,
 				B73F9BB52D88243000E55AA9 /* GestionView.swift in Sources */,
 				B73F9BA92D881B8E00E55AA9 /* HomepageView.swift in Sources */,
+				B74BDE6F2D8840D900D4E1F1 /* LoginView.swift in Sources */,
 				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
 				B73F9B9E2D819EA500E55AA9 /* SessionModel.swift in Sources */,
 				B73F9BB72D88243D00E55AA9 /* AdminView.swift in Sources */,
 				B73F9BA22D81A04400E55AA9 /* RealGameModel.swift in Sources */,
+				B74BDE782D8842A900D4E1F1 /* LoginResponse.swift in Sources */,
 				B73F9B8D2D81879500E55AA9 /* BalanceService.swift in Sources */,
+				B74BDE762D88426C00D4E1F1 /* LoginRequest.swift in Sources */,
 				B73F9BA42D81A82D00E55AA9 /* SellersViewModel.swift in Sources */,
 				B73F9BAF2D881C1400E55AA9 /* HomepageService.swift in Sources */,
 				B73F9BBF2D88263400E55AA9 /* SideMenuView.swift in Sources */,

@@ -9,9 +9,10 @@ struct SideMenuView: View {
         HStack {
             
             ZStack{
+                
                 Rectangle()
                     .fill(.white)
-                    .frame(width: 270)
+                    .frame(width: 200)
                     .shadow(color: .purple.opacity(0.1), radius: 5, x: 0, y: 3)
                 
                 VStack(alignment: .leading, spacing: 0) {

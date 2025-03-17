@@ -12,12 +12,13 @@ struct ContentView: View {
     @State var selectedSideMenuTab = 0
     var body: some View {
         ZStack{
+            
         TabView(selection: $selectedSideMenuTab) {
             HomepageView(presentSideMenu: $presentSideMenu)
                 .tag(0)
-            GestionView(presentSideMenu: $presentSideMenu)
+            LoginView(presentSideMenu: $presentSideMenu)
                 .tag(1)
-            AdminView(presentSideMenu: $presentSideMenu)
+            LoginView(presentSideMenu: $presentSideMenu)
                 .tag(2)
         }
         
