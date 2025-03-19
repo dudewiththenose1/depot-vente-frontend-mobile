@@ -48,7 +48,7 @@ struct SideMenuView: View {
             VStack(alignment: .leading){
                 HStack(spacing: 20){
                     Rectangle()
-                        .fill(isSelected ? .purple : .white)
+                        .fill(isSelected ? .orange : .white)
                         .frame(width: 5)
                     
                     ZStack{
@@ -68,7 +68,7 @@ struct SideMenuView: View {
         }
         .frame(height: 50)
         .background(
-            LinearGradient(colors: [isSelected ? .purple.opacity(0.5) : .white, .white], startPoint: .leading, endPoint: .trailing)
+            LinearGradient(colors: [isSelected ? .orange.opacity(0.5) : .white, .white], startPoint: .leading, endPoint: .trailing)
         )
     }
 }

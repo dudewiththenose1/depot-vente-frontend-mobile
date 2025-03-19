@@ -35,8 +35,8 @@
 		B73F9BBF2D88263400E55AA9 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BBE2D88263400E55AA9 /* SideMenuView.swift */; };
 		B74BDE6F2D8840D900D4E1F1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */; };
 		B74BDE732D88415700D4E1F1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */; };
-		B74BDE762D88426C00D4E1F1 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE752D88426C00D4E1F1 /* LoginRequest.swift */; };
-		B74BDE782D8842A900D4E1F1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE772D8842A900D4E1F1 /* LoginResponse.swift */; };
+		B74BDE782D8842A900D4E1F1 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE772D8842A900D4E1F1 /* LoginModels.swift */; };
+		B7F636312D8B29750099DDCE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F636302D8B29750099DDCE /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +88,8 @@
 		B73F9BBE2D88263400E55AA9 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		B74BDE752D88426C00D4E1F1 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
-		B74BDE772D8842A900D4E1F1 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		B74BDE772D8842A900D4E1F1 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		B7F636302D8B29750099DDCE /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +180,7 @@
 		B73F9B752D81839800E55AA9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				B73F9BA72D881B7500E55AA9 /* Homepage */,
+				B7F6362E2D8B29370099DDCE /* Shared */,
 				B73F9B802D81843C00E55AA9 /* Gestion */,
 				B73F9B7F2D81843200E55AA9 /* Admin */,
 			);
@@ -195,8 +195,7 @@
 				B73F9B9D2D819EA500E55AA9 /* SessionModel.swift */,
 				B73F9B9F2D819FCF00E55AA9 /* ClientDetailsModel.swift */,
 				B73F9BA12D81A04400E55AA9 /* RealGameModel.swift */,
-				B74BDE752D88426C00D4E1F1 /* LoginRequest.swift */,
-				B74BDE772D8842A900D4E1F1 /* LoginResponse.swift */,
+				B74BDE772D8842A900D4E1F1 /* LoginModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,6 +403,23 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		B7F6362E2D8B29370099DDCE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6362F2D8B29500099DDCE /* Login */,
+				B73F9BA72D881B7500E55AA9 /* Homepage */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B7F6362F2D8B29500099DDCE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B7F636302D8B29750099DDCE /* LoginService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -548,15 +564,15 @@
 				B73F9B9E2D819EA500E55AA9 /* SessionModel.swift in Sources */,
 				B73F9BB72D88243D00E55AA9 /* AdminView.swift in Sources */,
 				B73F9BA22D81A04400E55AA9 /* RealGameModel.swift in Sources */,
-				B74BDE782D8842A900D4E1F1 /* LoginResponse.swift in Sources */,
+				B74BDE782D8842A900D4E1F1 /* LoginModels.swift in Sources */,
 				B73F9B8D2D81879500E55AA9 /* BalanceService.swift in Sources */,
-				B74BDE762D88426C00D4E1F1 /* LoginRequest.swift in Sources */,
 				B73F9BA42D81A82D00E55AA9 /* SellersViewModel.swift in Sources */,
 				B73F9BAF2D881C1400E55AA9 /* HomepageService.swift in Sources */,
 				B73F9BBF2D88263400E55AA9 /* SideMenuView.swift in Sources */,
 				B73F9B9C2D819C6D00E55AA9 /* SellersView.swift in Sources */,
 				B73F9BAC2D881BF700E55AA9 /* HomepageViewModel.swift in Sources */,
 				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
+				B7F636312D8B29750099DDCE /* LoginService.swift in Sources */,
 				B73F9B8F2D81884400E55AA9 /* ClientModel.swift in Sources */,
 				B73F9BA02D819FCF00E55AA9 /* ClientDetailsModel.swift in Sources */,
 			);
