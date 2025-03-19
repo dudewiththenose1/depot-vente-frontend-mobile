@@ -82,7 +82,7 @@ struct GestionView: View {
                 }
                 .tag(5)
             }
-            .accentColor(.blue)
+            .accentColor(.orange)
         }
     }
 }
