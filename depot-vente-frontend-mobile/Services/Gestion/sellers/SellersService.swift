@@ -5,7 +5,7 @@ private struct ClientRequest: Codable {
     let session: Session
 }
 
-class SellersService{
+class SellersService {
     private let baseURL = "https://ton-backend.com/gestion"
     func searchEmails(email: String) async throws -> [Client] {
         let url = URL(string: "\(baseURL)/client-list")!
