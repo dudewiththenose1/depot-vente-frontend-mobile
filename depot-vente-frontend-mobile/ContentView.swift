@@ -16,9 +16,9 @@ struct ContentView: View {
         TabView(selection: $selectedSideMenuTab) {
             HomepageView(presentSideMenu: $presentSideMenu)
                 .tag(0)
-            LoginView(presentSideMenu: $presentSideMenu)
+            GestionView(presentSideMenu: $presentSideMenu)
                 .tag(1)
-            LoginView(presentSideMenu: $presentSideMenu)
+            AdminView(presentSideMenu: $presentSideMenu)
                 .tag(2)
         }
         
