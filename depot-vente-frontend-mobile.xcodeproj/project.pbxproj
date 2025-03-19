@@ -17,6 +17,8 @@
 		B74BDE7F2D88614100D4E1F1 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE7E2D88614100D4E1F1 /* CatalogView.swift */; };
 		B74BDE832D88655300D4E1F1 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE822D88655300D4E1F1 /* CatalogViewModel.swift */; };
 		B74BDE852D8867C000D4E1F1 /* RangedSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE842D8867C000D4E1F1 /* RangedSliderView.swift */; };
+		B7F6362B2D8B0E4B0099DDCE /* CatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6362A2D8B0E4B0099DDCE /* CatalogService.swift */; };
+		B7F6362D2D8B108F0099DDCE /* RealGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6362C2D8B108F0099DDCE /* RealGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		B74BDE7E2D88614100D4E1F1 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		B74BDE822D88655300D4E1F1 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
 		B74BDE842D8867C000D4E1F1 /* RangedSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangedSliderView.swift; sourceTree = "<group>"; };
+		B7F6362A2D8B0E4B0099DDCE /* CatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogService.swift; sourceTree = "<group>"; };
+		B7F6362C2D8B108F0099DDCE /* RealGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealGame.swift; path = "depot-vente-frontend-mobile/Services/Shared/Catalog/RealGame.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		B73F9B752D81839800E55AA9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B7F636282D8B0E260099DDCE /* Shared */,
 				B73F9B802D81843C00E55AA9 /* Gestion */,
 				B73F9B7F2D81843200E55AA9 /* Admin */,
 			);
@@ -149,8 +154,7 @@
 		B73F9B762D8183A200E55AA9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B73F9B7E2D81841C00E55AA9 /* Admin */,
-				B73F9B7D2D81841300E55AA9 /* Gestion */,
+				B7F6362C2D8B108F0099DDCE /* RealGame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,20 +207,6 @@
 			path = Admin;
 			sourceTree = "<group>";
 		};
-		B73F9B7D2D81841300E55AA9 /* Gestion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Gestion;
-			sourceTree = "<group>";
-		};
-		B73F9B7E2D81841C00E55AA9 /* Admin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Admin;
-			sourceTree = "<group>";
-		};
 		B73F9B7F2D81843200E55AA9 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +250,22 @@
 			isa = PBXGroup;
 			children = (
 				B74BDE822D88655300D4E1F1 /* CatalogViewModel.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		B7F636282D8B0E260099DDCE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B7F636292D8B0E390099DDCE /* Catalog */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B7F636292D8B0E390099DDCE /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6362A2D8B0E4B0099DDCE /* CatalogService.swift */,
 			);
 			path = Catalog;
 			sourceTree = "<group>";
@@ -397,6 +403,8 @@
 				B74BDE832D88655300D4E1F1 /* CatalogViewModel.swift in Sources */,
 				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
 				B74BDE7F2D88614100D4E1F1 /* CatalogView.swift in Sources */,
+				B7F6362D2D8B108F0099DDCE /* RealGame.swift in Sources */,
+				B7F6362B2D8B0E4B0099DDCE /* CatalogService.swift in Sources */,
 				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
 				B74BDE852D8867C000D4E1F1 /* RangedSliderView.swift in Sources */,
 			);
