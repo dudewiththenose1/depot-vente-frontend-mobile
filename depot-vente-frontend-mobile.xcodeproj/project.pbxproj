@@ -33,9 +33,11 @@
 		B73F9BBA2D8824CE00E55AA9 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BB92D8824CE00E55AA9 /* SideMenu.swift */; };
 		B73F9BBD2D88255500E55AA9 /* SideMenuRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BBC2D88255500E55AA9 /* SideMenuRowType.swift */; };
 		B73F9BBF2D88263400E55AA9 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9BBE2D88263400E55AA9 /* SideMenuView.swift */; };
-		B74BDE6F2D8840D900D4E1F1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */; };
+		B74BDE6F2D8840D900D4E1F1 /* LoginGestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE6E2D8840D900D4E1F1 /* LoginGestionView.swift */; };
 		B74BDE732D88415700D4E1F1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */; };
 		B74BDE782D8842A900D4E1F1 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BDE772D8842A900D4E1F1 /* LoginModels.swift */; };
+		B7EC66C72D8DA45600B8D0A4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66C62D8DA45600B8D0A4 /* Environment.swift */; };
+		B7EC66C92D8DA57D00B8D0A4 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66C82D8DA57D00B8D0A4 /* AuthError.swift */; };
 		B7F636312D8B29750099DDCE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F636302D8B29750099DDCE /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,9 +88,11 @@
 		B73F9BB92D8824CE00E55AA9 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		B73F9BBC2D88255500E55AA9 /* SideMenuRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowType.swift; sourceTree = "<group>"; };
 		B73F9BBE2D88263400E55AA9 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
-		B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B74BDE6E2D8840D900D4E1F1 /* LoginGestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginGestionView.swift; sourceTree = "<group>"; };
 		B74BDE722D88415700D4E1F1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B74BDE772D8842A900D4E1F1 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		B7EC66C62D8DA45600B8D0A4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B7EC66C82D8DA57D00B8D0A4 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		B7F636302D8B29750099DDCE /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +124,7 @@
 		B73F9B3F2D79D72E00E55AA9 = {
 			isa = PBXGroup;
 			children = (
+				B7EC66C62D8DA45600B8D0A4 /* Environment.swift */,
 				B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */,
 				B73F9B5B2D79D73200E55AA9 /* depot-vente-frontend-mobileTests */,
 				B73F9B652D79D73200E55AA9 /* depot-vente-frontend-mobileUITests */,
@@ -203,7 +208,7 @@
 		B73F9B772D8183AF00E55AA9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				B73F9BA62D881B6400E55AA9 /* Homepage */,
+				B74BDE702D88413100D4E1F1 /* Shared */,
 				B73F9B7C2D81840800E55AA9 /* Admin */,
 				B73F9B7B2D8183FE00E55AA9 /* Gestion */,
 			);
@@ -329,11 +334,10 @@
 		B73F9BA62D881B6400E55AA9 /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
-				B74BDE712D88414100D4E1F1 /* Login */,
-				B74BDE702D88413100D4E1F1 /* Shared */,
 				B73F9BAB2D881BF700E55AA9 /* HomepageViewModel.swift */,
 			);
-			path = Homepage;
+			name = Homepage;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B73F9BA72D881B7500E55AA9 /* Homepage */ = {
@@ -347,7 +351,7 @@
 		B73F9BB02D881C5800E55AA9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B74BDE6D2D8840C900D4E1F1 /* Login */,
+				B74BDE6D2D8840C900D4E1F1 /* LoginGestion */,
 				B73F9BB82D8824B100E55AA9 /* Sidebar */,
 				B73F9BB12D881C6A00E55AA9 /* Catalog */,
 				B73F9BA52D881B5100E55AA9 /* Homepage */,
@@ -376,23 +380,27 @@
 			isa = PBXGroup;
 			children = (
 				B73F9BBC2D88255500E55AA9 /* SideMenuRowType.swift */,
+				B7EC66C82D8DA57D00B8D0A4 /* AuthError.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
 		};
-		B74BDE6D2D8840C900D4E1F1 /* Login */ = {
+		B74BDE6D2D8840C900D4E1F1 /* LoginGestion */ = {
 			isa = PBXGroup;
 			children = (
-				B74BDE6E2D8840D900D4E1F1 /* LoginView.swift */,
+				B74BDE6E2D8840D900D4E1F1 /* LoginGestionView.swift */,
 			);
-			path = Login;
+			path = LoginGestion;
 			sourceTree = "<group>";
 		};
 		B74BDE702D88413100D4E1F1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B74BDE712D88414100D4E1F1 /* Login */,
+				B73F9BA62D881B6400E55AA9 /* Homepage */,
 			);
-			path = Shared;
+			name = Shared;
+			path = Homepage/Shared;
 			sourceTree = "<group>";
 		};
 		B74BDE712D88414100D4E1F1 /* Login */ = {
@@ -559,18 +567,20 @@
 				B73F9BBA2D8824CE00E55AA9 /* SideMenu.swift in Sources */,
 				B73F9BB52D88243000E55AA9 /* GestionView.swift in Sources */,
 				B73F9BA92D881B8E00E55AA9 /* HomepageView.swift in Sources */,
-				B74BDE6F2D8840D900D4E1F1 /* LoginView.swift in Sources */,
+				B74BDE6F2D8840D900D4E1F1 /* LoginGestionView.swift in Sources */,
 				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
 				B73F9B9E2D819EA500E55AA9 /* SessionModel.swift in Sources */,
 				B73F9BB72D88243D00E55AA9 /* AdminView.swift in Sources */,
 				B73F9BA22D81A04400E55AA9 /* RealGameModel.swift in Sources */,
 				B74BDE782D8842A900D4E1F1 /* LoginModels.swift in Sources */,
+				B7EC66C92D8DA57D00B8D0A4 /* AuthError.swift in Sources */,
 				B73F9B8D2D81879500E55AA9 /* BalanceService.swift in Sources */,
 				B73F9BA42D81A82D00E55AA9 /* SellersViewModel.swift in Sources */,
 				B73F9BAF2D881C1400E55AA9 /* HomepageService.swift in Sources */,
 				B73F9BBF2D88263400E55AA9 /* SideMenuView.swift in Sources */,
 				B73F9B9C2D819C6D00E55AA9 /* SellersView.swift in Sources */,
 				B73F9BAC2D881BF700E55AA9 /* HomepageViewModel.swift in Sources */,
+				B7EC66C72D8DA45600B8D0A4 /* Environment.swift in Sources */,
 				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
 				B7F636312D8B29750099DDCE /* LoginService.swift in Sources */,
 				B73F9B8F2D81884400E55AA9 /* ClientModel.swift in Sources */,
