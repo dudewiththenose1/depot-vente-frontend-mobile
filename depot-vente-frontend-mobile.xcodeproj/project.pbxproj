@@ -96,8 +96,7 @@
 		B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
 			isa = PBXGroup;
 			children = (
-				B7EC66AF2D8D803700B8D0A4 /* Views */,
-				B7EC66AA2D8D800000B8D0A4 /* Services */,
+				B7EC66CD2D8DC24200B8D0A4 /* Views */,
 				B7EC66A92D8D7FF600B8D0A4 /* Models */,
 				B73F9B772D8183AF00E55AA9 /* ViewModels */,
 				B73F9B4B2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift */,
@@ -137,8 +136,8 @@
 		B73F9B772D8183AF00E55AA9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B7EC66D32D8DC28400B8D0A4 /* Admin */,
 				B7EC66AE2D8D802200B8D0A4 /* Shared */,
-				B7EC66A82D8D7FEE00B8D0A4 /* Admin */,
 				B73F9B7B2D8183FE00E55AA9 /* Gestion */,
 			);
 			path = ViewModels;
@@ -151,49 +150,11 @@
 			path = Gestion;
 			sourceTree = "<group>";
 		};
-		B7EC66A82D8D7FEE00B8D0A4 /* Admin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Admin;
-			sourceTree = "<group>";
-		};
 		B7EC66A92D8D7FF600B8D0A4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		B7EC66AA2D8D800000B8D0A4 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				B7EC66AD2D8D801700B8D0A4 /* Shared */,
-				B7EC66AC2D8D800F00B8D0A4 /* Gestion */,
-				B7EC66AB2D8D800900B8D0A4 /* Admin */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		B7EC66AB2D8D800900B8D0A4 /* Admin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Admin;
-			sourceTree = "<group>";
-		};
-		B7EC66AC2D8D800F00B8D0A4 /* Gestion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Gestion;
-			sourceTree = "<group>";
-		};
-		B7EC66AD2D8D801700B8D0A4 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		B7EC66AE2D8D802200B8D0A4 /* Shared */ = {
@@ -203,35 +164,42 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		B7EC66AF2D8D803700B8D0A4 /* Views */ = {
+		B7EC66CD2D8DC24200B8D0A4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B7EC66B22D8D804E00B8D0A4 /* Shared */,
-				B7EC66B12D8D804600B8D0A4 /* Gestion */,
-				B7EC66B02D8D803F00B8D0A4 /* Admin */,
+				B7EC66D12D8DC26300B8D0A4 /* Gestion */,
+				B7EC66D02D8DC25B00B8D0A4 /* Admin */,
+				B7EC66CE2D8DC24D00B8D0A4 /* Shared */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B7EC66B02D8D803F00B8D0A4 /* Admin */ = {
+		B7EC66CE2D8DC24D00B8D0A4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B7EC66D02D8DC25B00B8D0A4 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Admin;
 			sourceTree = "<group>";
 		};
-		B7EC66B12D8D804600B8D0A4 /* Gestion */ = {
+		B7EC66D12D8DC26300B8D0A4 /* Gestion */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Gestion;
 			sourceTree = "<group>";
 		};
-		B7EC66B22D8D804E00B8D0A4 /* Shared */ = {
+		B7EC66D32D8DC28400B8D0A4 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Shared;
+			path = Admin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
