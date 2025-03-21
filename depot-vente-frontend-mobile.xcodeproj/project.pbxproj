@@ -14,6 +14,11 @@
 		B73F9B5D2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B5C2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift */; };
 		B73F9B672D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */; };
 		B73F9B692D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */; };
+		B7EC66B62D8D80BD00B8D0A4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66B52D8D80BD00B8D0A4 /* Environment.swift */; };
+		B7EC66B82D8D81B600B8D0A4 /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66B72D8D81B600B8D0A4 /* ClientModel.swift */; };
+		B7EC66BB2D8D8F1100B8D0A4 /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66BA2D8D8F1100B8D0A4 /* ClientService.swift */; };
+		B7EC66BF2D8D8FB100B8D0A4 /* ClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66BE2D8D8FB100B8D0A4 /* ClientViewModel.swift */; };
+		B7EC66C22D8D8FFC00B8D0A4 /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66C12D8D8FFC00B8D0A4 /* ClientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,12 @@
 		B73F9B622D79D73200E55AA9 /* depot-vente-frontend-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "depot-vente-frontend-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITests.swift; sourceTree = "<group>"; };
 		B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7EC66B52D8D80BD00B8D0A4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B7EC66B72D8D81B600B8D0A4 /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		B7EC66BA2D8D8F1100B8D0A4 /* ClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		B7EC66BE2D8D8FB100B8D0A4 /* ClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewModel.swift; sourceTree = "<group>"; };
+		B7EC66C12D8D8FFC00B8D0A4 /* ClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
+		B7EC66C52D8D93B700B8D0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +105,7 @@
 		B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				B7EC66C52D8D93B700B8D0A4 /* Info.plist */,
 				B73F9B782D8183C000E55AA9 /* Views */,
 				B73F9B772D8183AF00E55AA9 /* ViewModels */,
 				B73F9B762D8183A200E55AA9 /* Models */,
@@ -102,6 +114,7 @@
 				B73F9B4D2D79D72E00E55AA9 /* ContentView.swift */,
 				B73F9B4F2D79D73200E55AA9 /* Assets.xcassets */,
 				B73F9B512D79D73200E55AA9 /* Preview Content */,
+				B7EC66B52D8D80BD00B8D0A4 /* Environment.swift */,
 			);
 			path = "depot-vente-frontend-mobile";
 			sourceTree = "<group>";
@@ -143,8 +156,7 @@
 		B73F9B762D8183A200E55AA9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B73F9B7E2D81841C00E55AA9 /* Admin */,
-				B73F9B7D2D81841300E55AA9 /* Gestion */,
+				B7EC66B72D8D81B600B8D0A4 /* ClientModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +182,7 @@
 		B73F9B792D8183E200E55AA9 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
+				B7EC66C02D8D8FEB00B8D0A4 /* Client */,
 			);
 			path = Admin;
 			sourceTree = "<group>";
@@ -191,20 +204,7 @@
 		B73F9B7C2D81840800E55AA9 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Admin;
-			sourceTree = "<group>";
-		};
-		B73F9B7D2D81841300E55AA9 /* Gestion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Gestion;
-			sourceTree = "<group>";
-		};
-		B73F9B7E2D81841C00E55AA9 /* Admin */ = {
-			isa = PBXGroup;
-			children = (
+				B7EC66BC2D8D8F9500B8D0A4 /* Client */,
 			);
 			path = Admin;
 			sourceTree = "<group>";
@@ -212,6 +212,7 @@
 		B73F9B7F2D81843200E55AA9 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
+				B7EC66B92D8D8EE100B8D0A4 /* Client */,
 			);
 			path = Admin;
 			sourceTree = "<group>";
@@ -221,6 +222,30 @@
 			children = (
 			);
 			path = Gestion;
+			sourceTree = "<group>";
+		};
+		B7EC66B92D8D8EE100B8D0A4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC66BA2D8D8F1100B8D0A4 /* ClientService.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		B7EC66BC2D8D8F9500B8D0A4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC66BE2D8D8FB100B8D0A4 /* ClientViewModel.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		B7EC66C02D8D8FEB00B8D0A4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC66C12D8D8FFC00B8D0A4 /* ClientView.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,8 +378,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EC66C22D8D8FFC00B8D0A4 /* ClientView.swift in Sources */,
+				B7EC66B82D8D81B600B8D0A4 /* ClientModel.swift in Sources */,
+				B7EC66BF2D8D8FB100B8D0A4 /* ClientViewModel.swift in Sources */,
 				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
+				B7EC66B62D8D80BD00B8D0A4 /* Environment.swift in Sources */,
 				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
+				B7EC66BB2D8D8F1100B8D0A4 /* ClientService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +545,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"depot-vente-frontend-mobile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "depot-vente-frontend-mobile/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -543,6 +574,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"depot-vente-frontend-mobile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "depot-vente-frontend-mobile/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
