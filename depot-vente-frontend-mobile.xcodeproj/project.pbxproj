@@ -54,7 +54,6 @@
 		B7EC66BA2D8D8F1100B8D0A4 /* ClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
 		B7EC66BE2D8D8FB100B8D0A4 /* ClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewModel.swift; sourceTree = "<group>"; };
 		B7EC66C12D8D8FFC00B8D0A4 /* ClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
-		B7EC66C52D8D93B700B8D0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +104,6 @@
 		B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
 			isa = PBXGroup;
 			children = (
-				B7EC66C52D8D93B700B8D0A4 /* Info.plist */,
 				B73F9B782D8183C000E55AA9 /* Views */,
 				B73F9B772D8183AF00E55AA9 /* ViewModels */,
 				B73F9B762D8183A200E55AA9 /* Models */,
