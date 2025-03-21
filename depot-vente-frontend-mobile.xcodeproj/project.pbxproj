@@ -14,6 +14,7 @@
 		B73F9B5D2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B5C2D79D73200E55AA9 /* depot_vente_frontend_mobileTests.swift */; };
 		B73F9B672D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */; };
 		B73F9B692D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */; };
+		B7EC66B42D8D806300B8D0A4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC66B32D8D806300B8D0A4 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B73F9B622D79D73200E55AA9 /* depot-vente-frontend-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "depot-vente-frontend-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73F9B662D79D73200E55AA9 /* depot_vente_frontend_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITests.swift; sourceTree = "<group>"; };
 		B73F9B682D79D73200E55AA9 /* depot_vente_frontend_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depot_vente_frontend_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7EC66B32D8D806300B8D0A4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,14 +96,15 @@
 		B73F9B4A2D79D72E00E55AA9 /* depot-vente-frontend-mobile */ = {
 			isa = PBXGroup;
 			children = (
-				B73F9B782D8183C000E55AA9 /* Views */,
+				B7EC66AF2D8D803700B8D0A4 /* Views */,
+				B7EC66AA2D8D800000B8D0A4 /* Services */,
+				B7EC66A92D8D7FF600B8D0A4 /* Models */,
 				B73F9B772D8183AF00E55AA9 /* ViewModels */,
-				B73F9B762D8183A200E55AA9 /* Models */,
-				B73F9B752D81839800E55AA9 /* Services */,
 				B73F9B4B2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift */,
 				B73F9B4D2D79D72E00E55AA9 /* ContentView.swift */,
 				B73F9B4F2D79D73200E55AA9 /* Assets.xcassets */,
 				B73F9B512D79D73200E55AA9 /* Preview Content */,
+				B7EC66B32D8D806300B8D0A4 /* Environment.swift */,
 			);
 			path = "depot-vente-frontend-mobile";
 			sourceTree = "<group>";
@@ -131,54 +134,14 @@
 			path = "depot-vente-frontend-mobileUITests";
 			sourceTree = "<group>";
 		};
-		B73F9B752D81839800E55AA9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				B73F9B802D81843C00E55AA9 /* Gestion */,
-				B73F9B7F2D81843200E55AA9 /* Admin */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		B73F9B762D8183A200E55AA9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B73F9B7E2D81841C00E55AA9 /* Admin */,
-				B73F9B7D2D81841300E55AA9 /* Gestion */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		B73F9B772D8183AF00E55AA9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				B73F9B7C2D81840800E55AA9 /* Admin */,
+				B7EC66AE2D8D802200B8D0A4 /* Shared */,
+				B7EC66A82D8D7FEE00B8D0A4 /* Admin */,
 				B73F9B7B2D8183FE00E55AA9 /* Gestion */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		B73F9B782D8183C000E55AA9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B73F9B7A2D8183F100E55AA9 /* Gestion */,
-				B73F9B792D8183E200E55AA9 /* Admin */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B73F9B792D8183E200E55AA9 /* Admin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Admin;
-			sourceTree = "<group>";
-		};
-		B73F9B7A2D8183F100E55AA9 /* Gestion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Gestion;
 			sourceTree = "<group>";
 		};
 		B73F9B7B2D8183FE00E55AA9 /* Gestion */ = {
@@ -188,39 +151,87 @@
 			path = Gestion;
 			sourceTree = "<group>";
 		};
-		B73F9B7C2D81840800E55AA9 /* Admin */ = {
+		B7EC66A82D8D7FEE00B8D0A4 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Admin;
 			sourceTree = "<group>";
 		};
-		B73F9B7D2D81841300E55AA9 /* Gestion */ = {
+		B7EC66A92D8D7FF600B8D0A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7EC66AA2D8D800000B8D0A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC66AD2D8D801700B8D0A4 /* Shared */,
+				B7EC66AC2D8D800F00B8D0A4 /* Gestion */,
+				B7EC66AB2D8D800900B8D0A4 /* Admin */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7EC66AB2D8D800900B8D0A4 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		B7EC66AC2D8D800F00B8D0A4 /* Gestion */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Gestion;
 			sourceTree = "<group>";
 		};
-		B73F9B7E2D81841C00E55AA9 /* Admin */ = {
+		B7EC66AD2D8D801700B8D0A4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B7EC66AE2D8D802200B8D0A4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B7EC66AF2D8D803700B8D0A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC66B22D8D804E00B8D0A4 /* Shared */,
+				B7EC66B12D8D804600B8D0A4 /* Gestion */,
+				B7EC66B02D8D803F00B8D0A4 /* Admin */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7EC66B02D8D803F00B8D0A4 /* Admin */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Admin;
 			sourceTree = "<group>";
 		};
-		B73F9B7F2D81843200E55AA9 /* Admin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Admin;
-			sourceTree = "<group>";
-		};
-		B73F9B802D81843C00E55AA9 /* Gestion */ = {
+		B7EC66B12D8D804600B8D0A4 /* Gestion */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Gestion;
+			sourceTree = "<group>";
+		};
+		B7EC66B22D8D804E00B8D0A4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73F9B4E2D79D72E00E55AA9 /* ContentView.swift in Sources */,
+				B7EC66B42D8D806300B8D0A4 /* Environment.swift in Sources */,
 				B73F9B4C2D79D72E00E55AA9 /* depot_vente_frontend_mobileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
